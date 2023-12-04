@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DeepCancer</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+{% include 'navbar.html' %}
+    <div class="theory">
+        <section class="theorysection">
+            <h3>
+                Common Cancer Types
+            </h3>
+            <p>
+                This list of common cancer types includes cancers that are diagnosed with the greatest frequency in the
+                United States, excluding nonmelanoma skin cancers:
+            </p>
+        </section>
+
+        <section class="theorysection">
+            <table>
+                <tr>
+                    <th>Cancer Type</th>
+                    <th>Cancer Type</th>
+                </tr>
+                <tr>
+                    <td>Bladder Cancer</td>
+                    <td>Breast Cancer</td>
+                </tr>
+                <tr>
+                    <td>Colon and Rectal Cancer</td>
+                    <td>Endometrial Cancer</td>
+                </tr>
+                <tr>
+                    <td>Kidney Cancer</td>
+                    <td>Leukemia</td>
+                </tr>
+                <tr>
+                    <td>Liver</td>
+                    <td>Lung Cancer</td>
+                </tr>
+                <tr>
+                    <td>Melanoma</td>
+                    <td>Non-Hodgkin Lymphoma</td>
+                </tr>
+                <tr>
+                    <td>Pancreatic Cancer</td>
+                    <td>Prostate Cancer</td>
+                </tr>
+                <tr>
+                    <td>Thyroid Cancer</td>
+                </tr>
+            </table>
+        </section>
+        <section class="theorysection">
+            <p>
+                Cancer incidence and mortality statistics reported by the National Cancer Institute and other resources
+                were used to create the list.1 To qualify as a common cancer for the list, the estimated annual
+                incidence for 2023 had to be 40,000 cases or more.
+
+                The most common type of cancer on the list is breast cancer, with 300,590 new cases expected in the
+                United States in 2023. The next most common cancers are prostate cancer and lung cancer.
+
+                Because colon and rectal cancers are often referred to as "colorectal cancers," these two cancer types
+                are combined for the list. For 2023, the estimated number of new cases of colon cancer and rectal cancer
+                are 106,970 and 46,050, respectively, adding to a total of 153,020 new cases of colorectal cancer
+            </p>
+            <h4>The following table gives the estimated numbers of new cases and deaths for each common cancer type in
+                2023:</h4>
+        </section>
+        <section class="theorysection">
+
+            <table border="0" class="table-default" width="100%">
+                <tbody>
+                    <tr>
+                        <th scope="col" width="36%">Cancer Type</th>
+                        <th scope="col" width="32%">Estimated New Cases</th>
+                        <th scope="col" width="32%">Estimated Deaths</th>
+                    </tr>
+                    <tr>
+                        <td>Bladder</td>
+                        <td>82,290</td>
+                        <td>16,710</td>
+                    </tr>
+                    <tr>
+                        <td>Breast (Female – Male)</td>
+                        <td>297,790 – 2,800</td>
+                        <td>43,170 – 530</td>
+                    </tr>
+                    <tr>
+                        <td>Colon and Rectal (Combined)</td>
+                        <td>153,020</td>
+                        <td>52,550</td>
+                    </tr>
+                    <tr>
+                        <td>Endometrial</td>
+                        <td>66,200</td>
+                        <td>13,030</td>
+                    </tr>
+                    <tr>
+                        <td>Kidney (Renal Cell and Renal Pelvis)</td>
+                        <td>81,800</td>
+                        <td>14,890</td>
+                    </tr>
+                    <tr>
+                        <td>Leukemia (All Types)</td>
+                        <td>59,610</td>
+                        <td>23,710</td>
+                    </tr>
+                    <tr>
+                        <td>Liver and Intrahepatic Bile Duct</td>
+                        <td>41,210</td>
+                        <td>29,380</td>
+                    </tr>
+                    <tr>
+                        <td>Lung (Including Bronchus)</td>
+                        <td>238,340</td>
+                        <td>127,070</td>
+                    </tr>
+                    <tr>
+                        <td>Melanoma</td>
+                        <td>97,610</td>
+                        <td>7,990</td>
+                    </tr>
+                    <tr>
+                        <td>Non-Hodgkin Lymphoma</td>
+                        <td>80,550</td>
+                        <td>20,180</td>
+                    </tr>
+                    <tr>
+                        <td>Pancreatic</td>
+                        <td>64,050</td>
+                        <td>50,550</td>
+                    </tr>
+                    <tr>
+                        <td>Prostate</td>
+                        <td>288,300</td>
+                        <td>34,700</td>
+                    </tr>
+                    <tr>
+                        <td>Thyroid</td>
+                        <td>43,720</td>
+                        <td>2,120</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+    </div>
+</body>
+{% include 'footer.html' %}
+
+</html>

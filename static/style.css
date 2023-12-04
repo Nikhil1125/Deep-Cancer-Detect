@@ -1,0 +1,123 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+nav {
+    background-color: #80dfff;
+}
+
+ .img-fluid{
+    position: absolute;
+    z-index: -1;
+    max-height: 680px;
+    min-width: 100%;
+    z-index: -1;
+
+
+} 
+.detectform {
+    position: relative;
+    left: 50%;
+    padding: 25px;
+    margin-top:  5%;
+    width: 22rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(92, 220, 199);
+}
+
+#updimg label {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.form-control {
+    border: 2px solid black;
+}
+
+
+.res{
+    position: absolute;
+    /* margin-top: 80px; */
+    left: 40%;
+    bottom: 30%;
+    width: 22rem;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    padding: 20px;
+}
+.team-member {
+
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(92, 220, 199);
+
+}
+
+.theory {
+    margin: 20px;
+}
+
+.theorysection {
+    background-color: rgb(224, 227, 231);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.ol {
+    list-style-type: decimal;
+    /* Use decimal numbers for the list */
+    padding-left: 20px;
+    /* Adjust the left padding as needed */
+}
+
+/* Apply styles to list items */
+.li {
+    margin-bottom: 10px;
+    /* Add spacing between list items */
+    font-size: 16px;
+    /* Adjust the font size as needed */
+    line-height: 1.5;
+    /* Adjust the line height for better readability */
+    color: #333;
+    /* Set the text color */
+}
+
+ /* main { */
+    /* background-image: url({{ url_for ('static', filename = 'showcase.jpeg')}}); */
+    /* flex: 1; */
+/* }  */
+
+footer {
+    position: fixed;
+    background-color: #a8def1;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    height:min-content;
+
+}
+
+.footer-content {
+    font-family: monospace;
+    color: black;
+}

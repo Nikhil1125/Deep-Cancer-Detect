@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DeepCancer</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    {% include 'navbar.html' %}
+    <div class="theory">
+        <h2>Our Team</h2>
+        <p>Meet the dedicated individuals behind DeepCancer who are committed to making a difference in the fight
+            against cancer.</p>
+        <div class="flex-container">
+            <div class=" theorysection">
+                <!-- <img src="team_member1.jpg" alt="Team Member 1"> -->
+                <h4>Nikhil Agarwal</h4>
+                <p>Team Member </p>
+                <p>As a team role Nikhil's role was to integrate the project and work on project enhancement and team
+                    coordination</p>
+                <p>His role includes working on frontend,database,flask framework</p>
+            </div>
+            <div class=" theorysection">
+                <!-- <img src="team_member1.jpg" alt="Team Member 1"> -->
+                <h4>Joy Dutta</h4>
+                <p>Team Member </p>
+                <p>As a developer Joy's role was to code and and train a dataset to built the CNN model </p>
+            </div>
+            <div class=" theorysection">
+                <!-- <img src="team_member1.jpg" alt="Team Member 1"> -->
+                <h4>priyanshu Sarkar </h4>
+                <p> Team Member</p>
+                <p>As a team member Priyanshu's role was enhancement of front end and design of proect</p>
+            </div>
+            <div class=" theorysection">
+                <!-- <img src="team_member1.jpg" alt="Team Member 1"> -->
+                <h4> Mehnaz Yeasmin </h4>
+                <p> Team Member</p>
+                <p>As a team member Mehnaz's role was enhancement of frontend and design of proect</p>
+            </div>
+        </div>
+        <div class=" theorysection">
+            <h4> Technology Used </h4>
+            <ul>
+                <li>Python</li>
+                <li>Firebase</li>
+                <li>HTML/CSS/JS</li>
+                <li>Bootstrap</li>
+                <li>CNN</li>
+            </ul>
+        </div>
+        <div class="theorysection">
+            <h3>
+                <ul>
+                    <li>Map integrate</li>
+                    <li>chatbot</li>
+                    <li>all about cancer</li>
+                    <li>web hosting and deploy</li>
+                    <li></li>
+                </ul>
+            </h3>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+
+</body>
+
+</html>

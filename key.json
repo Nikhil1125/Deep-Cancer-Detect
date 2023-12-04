@@ -1,10 +1,11 @@
 {
   "type": "service_account",
   "project_id": "deepcancer-e2b3e",
-  "private_key_id": "9da3bf2ae6782b723709f3338bf33e465d420400",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCyQiE9Hi/jFOOB\neuXCiUBGP6IcKnQdRIKQTb3HnesydWXVp6b8YUmYFdk4oEpb6cOsKg287e07mfQA\nf4lTRRr6Afwc9kVZoI3byOlRWU3MhAw4ZEzwscEsphyBkab6vVcrZ4XWFeffFlIU\nxtSdu0kLdsFSObxIU/JOidDuMt8l+A+1FjyGO1Y/rVtSIbnqjdB/PRkHSfnrStUa\nWA8Fm4fvd/JLlYfY7fGKrPuNrZaVvvi2JnQoqrcHstJV/XlOqVIAZcWDLthGvDUV\nrWZIZ85y19t8buNlxlbuoVdoIVsZJ1ZHaufuhMIU3fp/7EQwRnolOr9L0UV4nunD\n7cqXfyrpAgMBAAECggEAGdkK9tDMwtHBl4HZlRbP0h/iAtGJGsFXaVNMhIh6lUt+\no7d2uDvnLv1kDRj5D1DbRbinW1DoyG6vee8EW6W2nq/w/cYcEj38s/TzGA+p/1Da\ncMbifThZOX8wvP0AyHTyEeIl/wAYKjoTVt3p8KE6m0XyDFlA2wAJL6g+Onv37YpH\nnYCQIvwJXZXnyNpel7yd1Ai4gBEzgBsFEvNr5cb1YMl/mebmDlVu/6mwdP1kj05T\nCbA6PPC1h5wtPiBILvRjdE1Lm+ipb5CU7SZVDxxDkbgTo7fSkK3RtuliLXB4Xdx7\nYfKhKy6k7YKcMODslBwlrtrluArClZrqEqyO91Sg/QKBgQDnjohGIzwOh97GtUPq\ncj+6x6dYiTxIb4dqYu12j7KxEKR3RuENkc27KXlU9PaBUCCFHpQ9663Ls2+pGOlz\nbAuO73/alT5wW3yNy+mVIjAyjIpmK4IcmDMqJGGWCJl8ZtOb4rpsCoAkZRrKo87/\nUq36Nr6w7DFBIhTj918mbSD4awKBgQDFE0nYAwlKvs3DK2w5ZAOxAIwsmpAWytCc\nsFhVyBOx4+TYfEXr9B0vsj4E3UBt9nnHSnAi3Vs/GbSGFrQBKh+fir/UG1Lil6gp\nu7x75x4iKdImQY6r54+ALE3JwYRRt3MUD6uGKNMuIOsJntNIVv1WZEyuomuoaa3j\nDxsqADFO+wKBgQC0S/n1yreXhNnElR1lrkHLGGxH9st2h0jEYHUPjQIQ9qloqkrP\n+whaxAdSTE6oD5DStiWtNRYk9vlpjBkyIx241OkTdIOijsmjyvN8iJtIsL+OoC/2\nPdgQ5zUI0ndYMuRvi5GmUGLIc+TxhazGh0Up/3hpX+9WDMiBXHq8+9nhMwKBgQCd\nspOScMuMriXEmQie2/NAPens/zlxo5VO7KWi7tkjrfK/cKIa71ozgnOyPMGDvIkx\n+dTFcU/ErHMSITSlAeoQJlzeA4dNnoGH85wdoZExUTnCNw9Na5weulT8rweMxDkn\nwmpEjoJ+FQU+y4LSDhnmeZgK3hk7yGTGnp3j/Ad45QKBgQC5Ft8XmMJOTACSy2Go\nKI10omVvgc1gwQ8lSCTUzBXKoAOcSULO0QWEEe/xpSsWXPyzXkt6o2CI2+a5Ih5L\nKUm6ANWAOT/53xHtjQCYlmlkOArUN9tFAsKPFsiL+yju0V5zAxmq/+jm2P8Y9IMm\nK2OJOQzTH07aHL+e0XTaasXa5w==\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-yprfp@deepcancer-e2b3e.iam.gserviceaccount.com",
-  "client_id": "105145675818452979688",
+  "private_key_id": "enter your key here",
+
+  "private_key": "-----BEGIN PRIVATE KEY-----"
+  "client_email": "firebase-adminsdkom",
+  "client_id": "enter your od  here",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",

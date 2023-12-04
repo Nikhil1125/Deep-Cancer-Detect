@@ -49,7 +49,7 @@ def index():
                 image = preprocess_image(image)
 
                 # Make a prediction using the loaded model
-                prediction = model.preict(np.expand_dims(image, axis=0))
+                prediction = model.predict(np.expand_dims(image, axis=0))
 
                 # Determine the result based on the prediction
                 result = "Tumor Detected" if prediction > 0.5 else "No Tumor Detected"
